@@ -14,7 +14,7 @@ metadata:
   name: worker-service
   namespace: product-catalog
   annotations:
-    argocd-image-updater.argoproj.io/image-list: worker-service=productacr2025.azurecr.io/worker-service
+    argocd-image-updater.argoproj.io/image-list: worker-service=riuu1110/worker-service
     argocd-image-updater.argoproj.io/update-strategy: latest
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/git-branch: master
@@ -28,11 +28,9 @@ spec:
       labels:
         app: worker-service
     spec:
-      imagePullSecrets:
-        - name: acr-secret
       containers:
       - name: worker-service
-        image: productacr2025.azurecr.io/worker-service:57
+        image: riuu1110/worker-service:1
         imagePullPolicy: Always
         env:
         - name: NODE_ENV

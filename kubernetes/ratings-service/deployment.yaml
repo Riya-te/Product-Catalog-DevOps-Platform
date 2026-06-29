@@ -28,7 +28,7 @@ metadata:
   name: ratings-service
   namespace: product-catalog
   annotations:
-    argocd-image-updater.argoproj.io/image-list: ratings-service=productacr2025.azurecr.io/ratings-service
+    argocd-image-updater.argoproj.io/image-list: ratings-service=riuu1110/ratings-service
     argocd-image-updater.argoproj.io/update-strategy: latest
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/git-branch: master
@@ -42,11 +42,9 @@ spec:
       labels:
         app: ratings-service
     spec:
-      imagePullSecrets:
-        - name: acr-secret
       containers:
       - name: ratings-service
-        image: productacr2025.azurecr.io/ratings-service:55
+        image: riuu1110/ratings-service:1
         imagePullPolicy: Always
         ports:
         - containerPort: 5001
