@@ -18,7 +18,7 @@ metadata:
   name: frontend
   namespace: product-catalog
   annotations:
-    argocd-image-updater.argoproj.io/image-list: frontend=productacr2025.azurecr.io/frontend
+    argocd-image-updater.argoproj.io/image-list: frontend=riuu1110/frontend
     argocd-image-updater.argoproj.io/update-strategy: latest
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/git-branch: master
@@ -31,12 +31,10 @@ spec:
     metadata:
       labels:
         app: frontend
-    spec:
-      imagePullSecrets:
-        - name: acr-secret
+    specs:
       containers:
       - name: frontend
-        image: productacr2025.azurecr.io/frontend:58
+        image: riuu1110/frontend:1
         imagePullPolicy: Always
         ports:
         - containerPort: 80

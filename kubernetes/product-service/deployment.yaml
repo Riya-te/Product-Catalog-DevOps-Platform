@@ -28,7 +28,7 @@ metadata:
   name: product-service
   namespace: product-catalog
   annotations:
-    argocd-image-updater.argoproj.io/image-list: product-service=productacr2025.azurecr.io/product-service
+    argocd-image-updater.argoproj.io/image-list:  product-service=riuu1110/product-service
     argocd-image-updater.argoproj.io/update-strategy: latest
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/git-branch: master
@@ -42,11 +42,9 @@ spec:
       labels:
         app: product-service
     spec:
-      imagePullSecrets:
-        - name: acr-secret
       containers:
       - name: product-service
-        image: productacr2025.azurecr.io/product-service:60
+        image: riuu1110/product-service:1
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
