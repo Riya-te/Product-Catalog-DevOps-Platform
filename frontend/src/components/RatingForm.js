@@ -63,7 +63,7 @@ const RatingForm = ({ productId, onRatingSubmitted, ratingsServiceUrl }) => {
 
   return (
     <div className="rating-form">
-      <h3>Rate this Product</h3>
+      <h3>Rate this Product and its features.....</h3>
       {message && (
         <div className={message.type === 'error' ? 'error' : 'success'}>
           {message.text}
