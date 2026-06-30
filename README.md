@@ -5,7 +5,7 @@ A microservices-based e-commerce application showcasing DevOps best practices in
 ![Product Catalog App](images/product.jpg)
 )
 
-## 🏗️ Architecture
+## 🏗️ Architecture layout
 
 This application demonstrates a microservices architecture with the following services:
 
