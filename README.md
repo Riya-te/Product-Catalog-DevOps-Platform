@@ -303,78 +303,78 @@ Grafana provides dashboards for monitoring:
 # 📸 Project Screenshots
 
 ## AWS Infrastructure (VPC)
-![AWS Infrastructure](screenshots/vpc.png)
+![AWS Infrastructure](Screenshots/vpc.png)
 
 ---
 
 ## Jenkins CI/CD Pipeline
-![Jenkins Pipeline](screenshots/pipeline.png)
+![Jenkins Pipeline](Screenshots/pipeline.png)
 
 ---
 
 ## Successful Jenkins Build
-![Jenkins Success](screenshots/jenkinssuccess.png)
+![Jenkins Success](Screenshots/jenkinssuccess.png)
 
 ---
 
 ## SonarQube Code Analysis
-![SonarQube](screenshots/sonarqube.png)
+![SonarQube](Screenshots/sonarqube.png)
 
 ---
 
 ## DockerHub Images
-![DockerHub](screenshots/dockerhub.png)
+![DockerHub](Screenshots/dockerhub.png)
 
 ---
 
 ## ArgoCD Dashboard
-![ArgoCD](screenshots/argocd1.png)
+![ArgoCD](Screenshots/argocd1.png)
 
-![ArgoCD Application](screenshots/argocd2.png)
+![ArgoCD Application](Screenshots/argocd2.png)
 
-![ArgoCD Sync Status](screenshots/argocd3.png)
+![ArgoCD Sync Status](Screenshots/argocd3.png)
 
 ---
 
 ## Product Catalog Application
-![Website](screenshots/website.png)
+![Website](Screenshots/website.png)
 
-![Product Page](screenshots/product_page.png)
+![Product Page](Screenshots/product_page.png)
 
 ---
 
 ## AWS Load Balancer
-![Load Balancer](screenshots/LoadBalancer.png)
+![Load Balancer](Screenshots/LoadBalancer.png)
 
 ---
 
 ## Grafana Dashboard
-![Grafana](screenshots/grafana.png)
+![Grafana](Screenshots/grafana.png)
 
 ---
 
 ## Cluster CPU Monitoring
-![CPU Monitoring](screenshots/cpu_utilization.png)
+![CPU Monitoring](Screenshots/cpu_utilization.png)
 
 ---
 
 ## Network Monitoring
-![Network Monitoring](screenshots/network_monitoring.png)
+![Network Monitoring](Screenshots/network_monitoring.png)
 
 ---
 
 ## Kubernetes Terminal
-![Terminal](screenshots/terminal.png)
+![Terminal](Screenshots/terminal.png)
 
 ---
 
 ## GitHub Webhook
-![Webhook](screenshots/webhook.png)
+![Webhook](Screenshots/webhook.png)
 
 ---
 
 ## Kubernetes Auto Scaling
-![Auto Scaling](screenshots/auto_scaling.png)
+![Auto Scaling](Screenshots/auto_scaling.png)
 
 ---
 
