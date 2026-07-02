@@ -300,19 +300,81 @@ Grafana provides dashboards for monitoring:
 
 ---
 
-# 📸 Screenshots
+# 📸 Project Screenshots
 
-Include screenshots of:
+## AWS Infrastructure (VPC)
+![AWS Infrastructure](screenshots/vpc.png)
 
-- AWS Infrastructure
-- Jenkins Pipeline
-- SonarQube Dashboard
-- DockerHub Images
-- ArgoCD Dashboard
-- Kubernetes Pods
-- Product Catalog Application
-- Grafana Dashboard
-- Prometheus Targets
+---
+
+## Jenkins CI/CD Pipeline
+![Jenkins Pipeline](screenshots/pipeline.png)
+
+---
+
+## Successful Jenkins Build
+![Jenkins Success](screenshots/jenkinssuccess.png)
+
+---
+
+## SonarQube Code Analysis
+![SonarQube](screenshots/sonarqube.png)
+
+---
+
+## DockerHub Images
+![DockerHub](screenshots/dockerhub.png)
+
+---
+
+## ArgoCD Dashboard
+![ArgoCD](screenshots/argocd1.png)
+
+![ArgoCD Application](screenshots/argocd2.png)
+
+![ArgoCD Sync Status](screenshots/argocd3.png)
+
+---
+
+## Product Catalog Application
+![Website](screenshots/website.png)
+
+![Product Page](screenshots/product_page.png)
+
+---
+
+## AWS Load Balancer
+![Load Balancer](screenshots/LoadBalancer.png)
+
+---
+
+## Grafana Dashboard
+![Grafana](screenshots/grafana.png)
+
+---
+
+## Cluster CPU Monitoring
+![CPU Monitoring](screenshots/cpu_utilization.png)
+
+---
+
+## Network Monitoring
+![Network Monitoring](screenshots/network_monitoring.png)
+
+---
+
+## Kubernetes Terminal
+![Terminal](screenshots/terminal.png)
+
+---
+
+## GitHub Webhook
+![Webhook](screenshots/webhook.png)
+
+---
+
+## Kubernetes Auto Scaling
+![Auto Scaling](screenshots/auto_scaling.png)
 
 ---
 
